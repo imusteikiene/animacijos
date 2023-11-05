@@ -1,0 +1,97 @@
+ *{
+    margin: 0;
+    padding: 0;
+   }
+    body{
+    padding: 10px;
+    margin: auto;
+    background: rgb(145, 24, 145);
+    margin-top: 50px;
+   }
+   .pirmas{
+
+    margin-top: 10px;
+   text-align: center;
+    margin: 200px auto;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+    background: #cab8b8;
+    animation: wave 1s ease-in infinite;
+    transition: transform 0.5s; 
+    
+
+     } @keyframes wave {
+    
+     0% { 
+         box-shadow:
+     0 0 0 0px rgba(255, 255,255, 1),
+     0 0 0 20px rgba(107, 16, 16, 0.2),
+     0 0 0 40px pink(255, 255,255, 0.6),
+     0 0 0 60px rgba(255, 255,255, 0.4),
+     0 0 0 80px rgba(255, 255,255, 0.2)
+     }
+     100% {  
+        box-shadow:
+       0 0 0 80px rgba(255, 255,255, 0),
+       0 0 0 60px rgba(255, 255,255, 0.2),
+       0 0 0 40px rgba(255, 255,255, 0.4),
+       0 0 0 20px rgba(255, 255,255, 0.6),
+       0 0 0 0px rgba(255, 255,255, 1)
+     }
+    
+     }
+     /* copy paste */
+     .loader {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        border-radius: 50%;
+        background: #fff;
+        animation: wave 1s ease-in infinite;
+      }
+      
+      @keyframes wave {
+       0% {  box-shadow:
+        0 0 0 0px rgba(255, 255,255, 1),
+        0 0 0 20px rgba(255, 255,255, 0.2),
+        0 0 0 40px rgba(255, 255,255, 0.6),
+        0 0 0 60px rgba(255, 255,255, 0.4),
+        0 0 0 80px rgba(255, 255,255, 0.2)
+        }
+        100% {  box-shadow:
+          0 0 0 80px rgba(255, 255,255, 0),
+          0 0 0 60px rgba(255, 255,255, 0.2),
+          0 0 0 40px rgba(255, 255,255, 0.4),
+          0 0 0 20px rgba(255, 255,255, 0.6),
+          0 0 0 0px rgba(255, 255,255, 1)
+        }
+      }
+      .animation .pirmas {
+        background:pink;
+        animation-timing-function: 0,3s;
+        animation-fill-mode: forwards;
+        animation-fill-mode: backwards;
+        animation-delay: 3s ;
+        animation-duration: 3s;
+        transition: transform 0,3s;
+       }
+       .pirmas:hover {
+        transform: rotate(1);
+        transform: scale(1.6); /* Po pele užvedimo, elementas tampa 1.2 karto didesnis */
+        background-color: rgb(37, 117, 6) (82, 6, 22); /* Spalvos pasikeičia */
+      }
+     
+      h3 {
+        margin-top: 50px auto;
+        line-height: 40px;
+      }
+
+
+
+      
+      
+        
+
+
